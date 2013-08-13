@@ -22,3 +22,6 @@ prepare:
 
 clean:
 	rm -f lua_cityhash.o cityhash.so
+
+test:
+	lua test_cityhash.lua

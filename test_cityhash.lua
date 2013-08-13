@@ -1285,12 +1285,11 @@ testhash = {
 
 function dotest()
    for i = 1, kTestSize - 1 do
-      print("#" .. i)
       j = i - 1
       test(testhash[i], testdata, j*j+1, j)
    end
-   print("#" .. kTestSize)
    test(testhash[kTestSize], testdata, 1, #testdata)
+   print("All tests passed.")
 end
 
 function dodump()
@@ -1305,7 +1304,7 @@ end
 
 function main()
    --save_data("/tmp/test_cityhash_lua.data_new", testdata)
-   dodump()
+   --dodump()
    dotest()
 end
 

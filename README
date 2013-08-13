@@ -5,6 +5,14 @@ lua-cityhash
 A lua-binding of Google's cityhash algorithm[1]. It implements all
 hash interface, and return hash value as big-endian binary string.
 
+See samples.lua for usage in details.
+
+- How to Compile
+  1. make prepare  # this will download cityhash code and compile for
+     lua-cityhash
+  2. make
+  3. make test
+
 
 
 
