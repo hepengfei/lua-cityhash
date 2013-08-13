@@ -1,0 +1,14 @@
+# -*-mode:org; coding:utf-8-*-
+
+lua-cityhash
+
+A lua-binding of Google's cityhash algorithm[1]. It implements all
+hash interface, and return hash value as big-endian binary string.
+
+
+
+
+
+[1] http://code.google.com/p/cityhash/
+
+
